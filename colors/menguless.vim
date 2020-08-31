@@ -2,7 +2,7 @@
 " Author:      Zekeriya Koc (info@zeko.dev)
 " Webpage:     https://github.com/zekzekus/dotfiles
 " Description: A nice color scheme
-" Last Change: 2020-07-13
+" Last Change: 2020-08-31
 
 hi clear
 
@@ -153,6 +153,7 @@ hi link Terminal Normal
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 hi link clojureParen Comment
+hi link rustCommentLineDoc rustCommentLine
 
 let g:terminal_ansi_colors = [
         \ '#000000',
